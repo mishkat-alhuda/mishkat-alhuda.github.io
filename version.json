@@ -1,9 +1,9 @@
 {
   "package": "com.anamuslim.muezzin",
-  "versionCode": 21,
-  "versionName": "6.0.0-recovery2",
-  "apkUrl": "https://github.com/mishkat-alhuda/mishkat-alhuda.github.io/releases/download/v6.0.0-recovery2/mishkat-alhuda.apk",
-  "sha256": "c0b84b88224beff3a7ea7e324491d4806eb6ab7d97127c32bb32a525fac367a2",
-  "sizeBytes": 33905208,
+  "versionCode": 22,
+  "versionName": "6.0.0-recovery3",
+  "apkUrl": "https://github.com/mishkat-alhuda/mishkat-alhuda.github.io/releases/download/v6.0.0-recovery3/mishkat-alhuda.apk",
+  "sha256": "2ab1189eb757819a6a6289a3f4baa9c4acb70772857884fa6a0de05b7ca513e1",
+  "sizeBytes": 33913400,
   "notes": "نسخة استرجاع: أقسام جديدة (تسجيلات الأربعين النووية، المنظومة البيقونية، دروس عمدة الأحكام) وفحص التحديثات."
 }
