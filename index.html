@@ -23,8 +23,7 @@ small{opacity:.75;display:block;margin-top:.75rem}
 <h1>مشكاة الهدى</h1>
 <p class="lead">تطبيق إسلامي للأندرويد.</p>
 <div class="card">
-<div id="soon">رابط التحميل سيظهر هنا عند نشر النسخة.</div>
-<a id="dl" class="btn" href="#" hidden>تحميل التطبيق</a>
+<a id="dl" class="btn" href="https://github.com/mishkat-alhuda/mishkat-alhuda.github.io/releases/download/v6.0.0-recovery1/mishkat-alhuda.apk" rel="noopener">تحميل التطبيق</a>
 <small id="meta"></small>
 </div>
 <div class="card">
@@ -40,9 +39,8 @@ small{opacity:.75;display:block;margin-top:.75rem}
 <script>
 fetch('version.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(v){
 if(!v||!v.apkUrl)return;
-var a=document.getElementById('dl');a.href=v.apkUrl;a.hidden=false;
-document.getElementById('soon').hidden=true;
-document.getElementById('meta').textContent='الإصدار '+v.versionName;
+var a=document.getElementById('dl');if(/^https:\/\/github\.com\/mishkat-alhuda\/mishkat-alhuda\.github\.io\/releases\/download\//.test(v.apkUrl))a.href=v.apkUrl;
+var m=document.getElementById('meta');m.textContent='الإصدار ';var b=document.createElement('bdi');b.dir='ltr';b.textContent=v.versionName;m.appendChild(b);
 }).catch(function(){});
 </script>
 </body>
